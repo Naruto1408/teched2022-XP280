@@ -14,7 +14,7 @@ sap.ui.define([
 		/**
 		 * The component is initialized by UI5 automatically during the startup of the app and calls the init method once.
 		 * @public
-		 * @override
+		 * @override  
 		 */
 		init: function () {
 			// call the base component's init function
@@ -23,7 +23,7 @@ sap.ui.define([
 			// enable routing
 			this.getRouter().initialize();
 
-			// set the device model
+			// set the device model!
 			this.setModel(models.createDeviceModel(), "device");
 		}
 	});
